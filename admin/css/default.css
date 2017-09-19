@@ -1,18 +1,14 @@
-/* Menentukan HTML dan body */
 html, body {
     font-family: "open sans", "Helvetica neue", Arial, Helvetica, sans-serif;
     background-color: #f3f3f4;
     color: #676a6c;
-    /* panjang navigation */
     height: 100%;
 }
 
-/* Memberi box di side content dengan line */
 .box {
     border: 1px red dotted;
 }
 
-/* Memberi warna pada navigation */
 #side-menu {
     background-color: #2f4050;
     padding: 0px;
@@ -28,24 +24,20 @@ html, body {
 .display-table {
     display: table;
     padding: 0px;
-    /* panjang navigation */
     height: 100%;
 }
 
 .display-table-row {
     display: table-row;
-    /* panjang navigation */
     height: 100%;
 }
 
 .display-table-cell {
     display: table-cell;
     float: none;
-    /* panjang navigation */
     height: 100%;
 }
 
-/* Membuat text content supaya tidak ada jarak dengan di atas */
 .valign-top {
     vertical-align: top;
 }
